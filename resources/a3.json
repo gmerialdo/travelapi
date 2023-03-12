@@ -1,0 +1,19 @@
+{
+    "transportation": "flight",
+    "commonParams" : {
+        "departureDate": "2023-03-05 15:05",
+        "arrivalDate": "2023-03-05 16:05",
+        "departureLocation": "Gerona Airport",
+        "arrivalLocation": "Stockholm",
+        "ticketNb": "1234"
+    },
+    "specificParams": {
+        "flightNb": "SK455",
+        "gateNb": "45B",
+        "seatNb": "3A",
+        "bagageDrop": {
+            "auto" : false,
+            "counter" : 344
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "transportation": "flight",
+    "commonParams" : {
+        "departureDate": "2023-03-05 17:05",
+        "arrivalDate": "2023-03-05 22:05",
+        "departureLocation": "Stockholm",
+        "arrivalLocation": "New York JFK",
+        "ticketNb": "4578"
+    },
+    "specificParams": {
+        "flightNb": "SK22",
+        "gateNb": "22",
+        "seatNb": "7B",
+        "bagageDrop": {
+            "auto" : true,
+            "counter" : null
+        }
+    }
+}

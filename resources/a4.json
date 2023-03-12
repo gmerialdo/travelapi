@@ -1,0 +1,14 @@
+{
+    "transportation": "train",
+    "commonParams" : {
+        "departureDate": "2023-03-05 05:05",
+        "arrivalDate": "2023-03-05 07:05",
+        "departureLocation": "Madrid",
+        "arrivalLocation": "Barcelona",
+        "ticketNb": "5678"
+    },
+    "specificParams": {
+        "trainNb": "78A",
+        "seatNb": "45B"
+    }
+}

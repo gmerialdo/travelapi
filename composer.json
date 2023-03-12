@@ -1,0 +1,31 @@
+{
+  "name": "gmerialdo/travelapi",
+  "description": "Travel Api",
+  "authors": [
+    {
+      "name": "G.M.",
+      "email": "merialdo.gaelle@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "phpunit --bootstrap vendor/autoload.php tests"
+  },
+  "scripts-descriptions": {
+    "test": "Run PHPUnit tests."
+  },
+  "autoload": {
+    "psr-4": {
+      "Travel\\": "src/"
+    }
+
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "phpunit/phpunit": "9.6.x-dev"
+  }
+}
