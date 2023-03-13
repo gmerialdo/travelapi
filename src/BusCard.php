@@ -2,9 +2,8 @@
 
 namespace TravelApi;
 
-//require_once('BoardingPass.php');
 
-class BusPass extends BoardingPass
+class BusCard extends BoardingCard
 {
 
     public function printTravel() : string

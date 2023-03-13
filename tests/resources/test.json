@@ -1,0 +1,14 @@
+{
+    "transportation": "bus",
+    "commonParams" : {
+        "departureDate": "2023-03-05 11:45",
+        "arrivalDate": "2023-03-05 12:05",
+        "departureLocation": "Barcelona",
+        "arrivalLocation": "Gerona Airport",
+        "ticketNb": "1234"
+    },
+    "specificParams": {
+        "busType": "airport bus",
+        "seat": null
+    }
+}

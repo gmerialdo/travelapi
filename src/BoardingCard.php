@@ -2,7 +2,7 @@
 
 namespace TravelApi;
 
-class BoardingPass
+class BoardingCard
 {
 
     protected string $transportation;

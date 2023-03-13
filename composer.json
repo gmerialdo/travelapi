@@ -8,16 +8,17 @@
     }
   ],
   "scripts": {
-    "test": "phpunit --bootstrap vendor/autoload.php tests"
+    "test": "phpunit --bootstrap vendor/autoload.php Tests",
+    "print travel": "php App.php"
   },
   "scripts-descriptions": {
     "test": "Run PHPUnit tests."
   },
   "autoload": {
     "psr-4": {
-      "Travel\\": "src/"
+      "TravelApi\\": "src/",
+      "App\\": ""
     }
-
   },
   "autoload-dev": {
     "psr-4": {
